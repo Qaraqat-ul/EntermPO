@@ -4,7 +4,7 @@ INSERT INTO movies (id, title, description, age_rating, duration_minutes, releas
     (3, 'Movie C', 'Action Comedy', '16+', 110, 2019, 1);
 
 INSERT INTO movie_genres (movie_id, genre_id) VALUES
-    (1, 2), -- Movie A -> Comedy
-    (2, 1), -- Movie B -> Action
-    (3, 1), -- Movie C -> Action
-    (3, 2); -- Movie C -> Comedy
+    (1, 2),
+    (2, 1),
+    (3, 1),
+    (3, 2);
